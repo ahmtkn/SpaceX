@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .h-40rem{
+        height: 40rem;
+    }
+    .w-40rem{
+        width: 40rem;
+    }
+}
+
+body{
+    @apply bg-slate-900
+}
