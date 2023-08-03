@@ -30,7 +30,7 @@ import LauncheNext from "~/components/launche/Next.vue";
     })
   }
 
-  const {data: launches} = useFetch(`${config.public.BASE_URL}/launches/${proxy.$route.query.endpoint}`);
+  const {data: launches} =  await useFetch(`${config.public.BASE_URL}/launches/${proxy.$route.query.endpoint}`);
 
   const currentEndpoint = proxy.$route.query.endpoint;
 
