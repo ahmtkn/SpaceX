@@ -12,9 +12,6 @@
 
 <script setup>
 import headermenu from "~/common/headermenu";
-import LauncheLatest from "~/components/launche/Latest.vue";
-import LaunchePast from "~/components/launche/Past.vue";
-import LauncheNext from "~/components/launche/Next.vue";
 
   definePageMeta({
     layout: "site"
